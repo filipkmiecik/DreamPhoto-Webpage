@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+          <nav class="fixed-top">
+            <div class = "name"><img src = "image/logo.png" class="mx-auto d-block"></div>
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#header">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#main">OUR TEAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT US</a>
+                </li>
+               </ul>
+          </nav>
+      </div>
+    </header>
+    <div class = "banner">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="video/cam-man.mp4" type="video/mp4">
+            </video>
+                <div class="container h-100">
+                    <div class="d-flex h-100 text-center align-items-center">
+                        <div class="w-100 text-white">
+                            <h1 class="display-3">Professional photos and videos</h1>
+                        </div>
+                    </div>
+                </div>
+    </div> 
+    <div class="services" id="services">
+        <div class="col-md-8 mx-auto">
+          <h1 class="display-3">OUR SERVICES</h1> 
+          <div class="container">
+            <button id="btn_photography" onclick="photography()">Photography</button>
+            <button id="btn_video" onclick="video()">Video</button>
+            <button id="btn_photos" onclick="photos()">Photos for documents</button>
+          </div>
+             <div class="photography" id="photography"><img src="image/couple.jpg"></div>
+               <div class="video" id="video">
+                 <video width="60%" height="auto" autoplay="autoplay" muted="muted" loop="loop">
+                   <source src="video/concert.mp4" type="video/mp4"></div>
+                     <div class="photos" id="photos"><img src="image/professional.png"></div> 
+        </div>
+    </div> 
+    <main id="main">
+        <div class="col-md-8 mx-auto">
+          <h1 class="display-3">OUR TEAM</h1>
+            <p class="team-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, dolores quam. Ipsum expedita culpa qui distinctio eaque, et modi quisquam, nesciunt cumque tempore, eligendi at optio provident! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, sunt architecto maxime delectus porro rem, minus beatae autem obcaecati hic sed adipisci? Dignissimos facilis odio facere fugit cum incidunt nulla.</p>
+        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <div class="single-about-detail clearfix">
+                  <div class="about-img">
+                    <img src="image/team1.jpg">
+                  </div>
+                  <div class="about-details">
+                    <h3>Matt Freephoto</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit odio dolor ratione saepe aspernatur cupiditate corporis possimus quos quo fugit minus, nobis expedita vel sunt labore maxime inventore, reiciendis veniam!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="single-about-detail">
+                  <div class="about-img">
+                    <img class="img-responsive" src="image/team2.jpg" alt="">
+                  </div>
+                  <div class="about-details">
+                    <h3>John Placeholder</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sapiente quo repudiandae consectetur, blanditiis laudantium odit odio quibusdam. Magni perferendis illo fugit id reprehenderit nesciunt dicta sint repudiandae.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="single-about-detail">
+                  <div class="about-img">
+                    <img class="img-responsive" src="image/team3.jpg" alt="">
+                  </div>
+                  <div class="about-details">
+                    <h3>William McStock</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi in accusantium nobis nemo molestiae, distinctio laudantium asperiores, ipsam maiores non culpa harum quos ipsa alias libero quia doloribus perferendis?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+       </div>
+       </div>
+       </div>
+    </main>
+    <footer id="footer">
+      <h1 class="display-3">CONTACT US</h1>
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fas fa-phone"></i> 123-456-789</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#"><i class="fas fa-envelope"></i> dream@photo.com</a>
+         </li>
+        <li class="nav-item">
+           <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i> dream_photo</a>
+         </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fab fa-instagram"></i> DreamPhoto</a>
+          </li>
+        </ul>
+       <br>
+       <p id = "copyright"></p>
+      </div>   
+    </footer> 
+  </body>
+  </html>
+  
+  <script type="text/javascript" src="services.js"> </script>  

@@ -1,0 +1,157 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+
+header{
+    z-index: 2;
+}
+
+header img{
+    width: 10%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.fixed-top{
+    background-color: black;
+}
+
+.fa-camera{
+    font-size: 700%;
+    float: left;
+}
+
+ a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(19, 150, 19);
+}
+
+.banner {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.banner video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+.banner .container {
+    position: relative;
+    z-index: 1;
+  }
+
+main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: rgb(17, 17, 17);
+}
+
+.team-desc{
+    padding: 20px 0px 20px 0px;
+}
+
+.about-img img{
+    width: 100%;
+    border: 20px;
+    border-color: gray;
+}
+.single-about-detail{
+	position: relative;
+}
+.about-details{
+	background: #2a2a2a;
+	border-top: 2px solid #fff;
+	transition: all .7s ease 0s;
+}
+.about-details h3{
+	font-size: 36px;
+	color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-details p{
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 25px;
+	padding-bottom: 30px;
+}
+.single-about-detail:hover .about-details{
+	background:rgb(19, 150, 19);
+}
+
+.services{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(19, 150, 19);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.photography{
+    padding: 40px 0px 40px 0px;
+    display: none;
+}
+
+.video{
+    padding: 40px 0px 40px 0px;
+    display: none;
+}
+
+.photos{
+    padding: 40px 0px 40px 0px;
+    display: none;
+}
+
+.services img{
+    height: auto;
+    width: 60%;
+}
+
+footer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#copyright{
+    text-align: center;
+    color: gray;
+}
